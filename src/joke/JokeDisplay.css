@@ -1,0 +1,55 @@
+.joke-text {
+    font-size: 24px;
+}
+.joke-setup {
+    padding-top: 40px;
+    position: relative;
+    padding-left: 60px;
+}
+
+.joke-setup:before {
+    content: '“';
+    font-size: 300px;
+    font-family: "Times New Roman";
+    position: absolute;
+    top: -100px;
+    left: 0;
+    color: #eee;
+    z-index: -1;
+}
+
+.show-punchline {
+    margin: 100px 0;
+    text-align: center;
+}
+
+/**
+Given more time I would have refactored the buttons to be inherited for some of the common styles
+ */
+.show-punchline-button {
+    color: white;
+    background-color: rgb(24,96,168);
+    padding: 25px;
+    border-radius: 35px;
+    font-size: 20px;
+}
+
+.joke-punchline {
+    text-align: right;
+    position: relative;
+    padding-right: 60px;
+}
+
+/**
+Given more time I would have used sass to make the CSS cleaner and more reusable
+ */
+.joke-punchline:after {
+    content: '”';
+    font-size: 300px;
+    font-family: "Times New Roman";
+    position: absolute;
+    bottom: -280px;
+    right: 0;
+    color: #eee;
+    z-index: -1;
+}

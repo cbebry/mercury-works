@@ -1,0 +1,10 @@
+/**
+Given more time I would have refactored the buttons to be inherited for some of the common styles
+ */
+.new-joke-button {
+    color: white;
+    background-color: rgb(123,192,111);
+    padding: 25px;
+    border-radius: 35px;
+    font-size: 20px;
+}
